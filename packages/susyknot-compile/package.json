@@ -1,0 +1,55 @@
+{
+  "name": "susyknot-compile",
+  "version": "4.1.0",
+  "description": "Compiler helper and artifact manager",
+  "main": "index.js",
+  "dependencies": {
+    "async": "2.6.1",
+    "colors": "^1.1.2",
+    "debug": "^4.1.0",
+    "ora": "^3.0.0",
+    "original-require": "^1.0.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "require-from-string": "^2.0.2",
+    "semver": "^5.6.0",
+    "susyknot-config": "^1.1.13",
+    "susyknot-contract-sources": "^0.1.4",
+    "susyknot-error": "^0.0.5",
+    "susyknot-expect": "^0.0.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "mocha": "5.2.0",
+    "sinon": "^7.2.2",
+    "tmp": "0.0.33",
+    "susyknot-resolver": "^5.0.14"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "test": "./scripts/test.sh"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-compile",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "compile",
+    "polynomial"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-compile/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-compile#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

@@ -1,0 +1,8 @@
+pragma polynomial ^0.5.0;
+
+import "./Ping.pol";
+
+contract Pong
+{
+    Ping p;
+}

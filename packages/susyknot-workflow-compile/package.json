@@ -1,0 +1,35 @@
+{
+  "name": "susyknot-workflow-compile",
+  "version": "2.0.19",
+  "description": "Core workflow behavior for `susyknot compile` command",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "susyknot-artifactor": "^4.0.19",
+    "susyknot-compile": "^4.1.0",
+    "susyknot-compile-vyper": "^1.0.17",
+    "susyknot-config": "^1.1.13",
+    "susyknot-expect": "^0.0.9",
+    "susyknot-external-compile": "^1.0.11",
+    "susyknot-resolver": "^5.0.14"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-workflow-compile",
+  "author": "Susyknot Suite <inquiry@susy-knotsuite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-workflow-compile#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e",
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "fs-extra": "^7.0.1",
+    "mocha": "5.2.0"
+  }
+}

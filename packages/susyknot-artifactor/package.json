@@ -1,0 +1,32 @@
+{
+  "name": "susyknot-artifactor",
+  "version": "4.0.19",
+  "description": "A contract packager for Sophon and Javascript",
+  "author": "Tim Coulter",
+  "main": "./index.js",
+  "private": false,
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-artifactor",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "debug": "^4.1.1",
+    "susybraid-core": "2.5.5",
+    "mocha": "5.2.0",
+    "require-nocache": "^1.0.0",
+    "temp": "^0.8.3",
+    "susyknot-contract": "^4.0.20",
+    "susyweb": "1.0.0-beta.37"
+  },
+  "dependencies": {
+    "fs-extra": "6.0.1",
+    "lodash": "4.17.11",
+    "susyknot-contract-schema": "^3.0.11"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

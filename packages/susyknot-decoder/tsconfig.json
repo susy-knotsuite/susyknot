@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "lib": ["es2017"],
+    "paths": {
+      "susyweb": ["../../node_modules/@susy-js/susyweb/index", "node_modules/susyweb/index"],
+      "susyweb/types": ["../../node_modules/@susy-js/susyweb/types", "node_modules/susyweb/types"],
+      "susyweb/sof/types": ["../../node_modules/@susy-js/susyweb/sof/types", "node_modules/susyweb/sof/types"]
+    },
+    "rootDir": "lib",
+    "typeRoots": [
+      "./typings",
+      "../../**/node_modules/@types/bn.js",
+      "../../**/node_modules/@types/debug",
+      "../../**/node_modules/@types/lodash",
+      "../../**/node_modules/@types/lodash.clonedeep",
+      "../../**/node_modules/@types/lodash.isequal",
+      "../../**/node_modules/@types/lodash.merge"
+    ]
+
+  },
+  "include": [
+    "./lib/**/*.ts",
+    "./typings/**/*.d.ts"
+  ]
+}

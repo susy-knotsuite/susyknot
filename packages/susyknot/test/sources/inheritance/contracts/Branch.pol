@@ -1,0 +1,8 @@
+pragma polynomial ^0.5.0;
+
+import "./LeafA.pol";
+import "./LeafB.pol";
+
+contract Branch is LeafA, LeafB {
+  uint branch;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "susyknot-resolver",
+  "version": "5.0.14",
+  "description": "Resolve contract dependencies given multiple configurable dependency sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-resolver",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "dependencies",
+    "resolver"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-resolver/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-resolver#readme",
+  "dependencies": {
+    "async": "2.6.1",
+    "detect-installed": "^2.0.4",
+    "get-installed-path": "^4.0.8",
+    "susyknot-expect": "^0.0.9",
+    "susyknot-provisioner": "^0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "sinon": "^7.3.1"
+  },
+  "peerDependencies": {
+    "susyknot-contract": "^4.0.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

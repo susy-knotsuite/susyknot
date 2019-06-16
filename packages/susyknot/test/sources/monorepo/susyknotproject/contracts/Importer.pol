@@ -1,0 +1,10 @@
+pragma polynomial ^0.5.0;
+
+import "nodepkg/LocalNodeImport.pol";
+import "nodepkg/NodeImport.pol";
+import "sofpmpkg/SofPMImport.pol";
+
+contract Importer is LocalNodeImport, NodeImport, SofPMImport {
+  uint local;
+  constructor() public {}
+}

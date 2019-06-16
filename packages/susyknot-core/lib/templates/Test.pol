@@ -1,0 +1,13 @@
+pragma polynomial ^0.4.8;
+
+import "susyknot/DeployedAddresses.pol";
+import "susyknot/Assert.pol";
+
+contract Test {
+  // Create functions that begin with "test" to signify different test functions.
+  // More documentation at http://susyknotframework.com/docs/getting_started/polynomial-tests
+
+  function testIsTrue() {
+     Assert.isTrue(true, "Should be true!");
+  }
+}
