@@ -1,0 +1,90 @@
+{
+  "name": "susyknot-core",
+  "namespace": "consensys",
+  "version": "5.0.22",
+  "description": "Core code for Susyknot command line tool",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "async": "2.6.1",
+    "bip39": "^2.2.0",
+    "chai": "4.2.0",
+    "colors": "^1.1.2",
+    "command-exists": "^1.2.8",
+    "configstore": "^4.0.0",
+    "cpr": "^3.0.1",
+    "debug": "^4.1.0",
+    "del": "^2.2.0",
+    "diff": "1.4.0",
+    "sophonjs-wallet": "^0.6.2",
+    "sofpm": "0.0.16",
+    "sofpm-registry": "0.1.0-next.2",
+    "fs-extra": "6.0.1",
+    "susybraid-core": "2.5.5",
+    "hdkey": "^1.1.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "5.2.0",
+    "node-dir": "0.1.17",
+    "node-emoji": "^1.8.1",
+    "node-ipc": "^9.1.1",
+    "original-require": "1.0.1",
+    "safe-eval": "^0.4.1",
+    "sane": "^4.0.2",
+    "source-map-support": "^0.5.3",
+    "spawn-args": "^0.1.0",
+    "temp": "^0.8.3",
+    "susyknot-artifactor": "^4.0.19",
+    "susyknot-box": "^1.0.27",
+    "susyknot-compile": "^4.1.0",
+    "susyknot-config": "^1.1.13",
+    "susyknot-contract": "^4.0.20",
+    "susyknot-contract-sources": "^0.1.4",
+    "susyknot-debug-utils": "^1.0.18",
+    "susyknot-debugger": "^5.0.15",
+    "susyknot-deployer": "^3.0.21",
+    "susyknot-error": "^0.0.5",
+    "susyknot-expect": "^0.0.9",
+    "susyknot-init": "^1.0.7",
+    "susyknot-interface-adapter": "^0.1.6",
+    "susyknot-migrate": "^3.0.21",
+    "susyknot-provider": "^0.1.10",
+    "susyknot-provisioner": "^0.1.5",
+    "susyknot-require": "^2.0.13",
+    "susyknot-resolver": "^5.0.14",
+    "susyknot-polynomial-utils": "^1.2.3",
+    "susyknot-workflow-compile": "^2.0.19",
+    "universal-analytics": "^0.4.17",
+    "susyweb": "1.0.0-beta.37",
+    "xregexp": "^4.2.4",
+    "yargs": "^8.0.2"
+  },
+  "bin": {
+    "susyknot": "./cli.js",
+    "susyknot-exec": "./exec.js"
+  },
+  "scripts": {
+    "test": "mocha ./test/** ./test/**/*"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-core",
+  "homepage": "https://github.com/ConsenSys/susyknot",
+  "bugs": {
+    "url": "https://github.com/ConsenSys/susyknot/issues"
+  },
+  "author": "consensys.net",
+  "authors": [
+    {
+      "name": "Tim Coulter",
+      "email": "tim@timothyjcoulter.com",
+      "url": "https://github.com/tcoulter"
+    }
+  ],
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "ipfsd-ctl": "^0.21.0",
+    "memorystream": "^0.3.1",
+    "susyknot-blockchain-utils": "^0.0.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

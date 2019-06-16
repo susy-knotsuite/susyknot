@@ -1,0 +1,54 @@
+{
+  "name": "susyknot-contract",
+  "version": "4.0.20",
+  "description": "A better contract abstraction for Sophon (formerly SophyPudding)",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "yarn compile",
+    "publish:next": "node ../susyknot/scripts/prereleaseVersion.js next next",
+    "test": "./scripts/test.sh",
+    "test:debug": "$(yarn bin)/mocha --inspect-brk",
+    "test:trace": "$(yarn bin)/mocha --trace-warnings",
+    "compile": "mkdir -p dist && browserify ./index.js -o ./dist/susyknot-contract.js && uglifyjs ./dist/susyknot-contract.js -o ./dist/susyknot-contract.min.js"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-contract",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "contract",
+    "abstraction"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-contract#readme",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "sophys": "^4.0.0-beta.1",
+    "susyknot-blockchain-utils": "^0.0.10",
+    "susyknot-contract-schema": "^3.0.11",
+    "susyknot-error": "^0.0.5",
+    "susyknot-interface-adapter": "^0.1.6",
+    "susyweb": "1.0.0-beta.37",
+    "susyweb-core-promievent": "1.0.0-beta.37",
+    "susyweb-sof-abi": "1.0.0-beta.37",
+    "susyweb-utils": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "async": "2.6.1",
+    "browserify": "^14.0.0",
+    "chai": "4.2.0",
+    "debug": "^4.1.0",
+    "susybraid-core": "2.5.5",
+    "mocha": "5.2.0",
+    "temp": "^0.8.3",
+    "susyknot-compile": "^4.1.0",
+    "uglify-es": "^3.3.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

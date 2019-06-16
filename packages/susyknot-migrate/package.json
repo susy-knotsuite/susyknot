@@ -1,0 +1,42 @@
+{
+  "name": "susyknot-migrate",
+  "version": "3.0.21",
+  "description": "On-chain migrations management",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* ./test/**/*"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-migrate",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "migrations",
+    "deployment"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-migrate/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-migrate#readme",
+  "dependencies": {
+    "async": "2.6.1",
+    "emittery": "^0.4.0",
+    "node-dir": "0.1.17",
+    "susyknot-config": "^1.1.13",
+    "susyknot-deployer": "^3.0.21",
+    "susyknot-expect": "^0.0.9",
+    "susyknot-interface-adapter": "^0.1.6",
+    "susyknot-reporters": "^1.0.10",
+    "susyknot-require": "^2.0.13",
+    "susyweb": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "sinon": "^7.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

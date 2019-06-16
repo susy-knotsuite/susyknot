@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "Simon de la Rouviere <simon.delarouviere@consensys.net>",
+    "Joseph Chow <joseph.chow@consensys.net>"
+  ],
+  "license": "MIT",
+  "description": "Sophon Token Contracts",
+  "keywords": [
+    "tokens",
+    "consensys"
+  ],
+  "links": {},
+  "sources": [
+    "./contracts/Migrations.pol",
+    "./contracts/sip20/SIP20.pol",
+    "./contracts/sip20/SIP20Factory.pol",
+    "./contracts/sip20/SIP20Interface.pol"
+  ],
+  "dependencies": {},
+  "manifest_version": 1,
+  "package_name": "tokens",
+  "version": "1.0.0"
+}

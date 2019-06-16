@@ -1,0 +1,20 @@
+{
+  "name": "susyknot-error",
+  "version": "0.0.5",
+  "description": "Simple module that allows native Error objects to be extended",
+  "main": "index.js",
+  "scripts": {},
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-error",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "error",
+    "extendable"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-error/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-error#readme"
+}

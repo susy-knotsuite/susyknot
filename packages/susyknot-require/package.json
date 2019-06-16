@@ -1,0 +1,36 @@
+{
+  "name": "susyknot-require",
+  "version": "2.0.13",
+  "description": "Require and execute a Javascript module within a Susyknot context",
+  "main": "require.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-require",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "exec",
+    "require"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-exec/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-exec#readme",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "original-require": "1.0.1",
+    "susyknot-config": "^1.1.13",
+    "susyknot-expect": "^0.0.9",
+    "susyknot-interface-adapter": "^0.1.6",
+    "susyweb": "1.0.0-beta.37"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "susyknot-provisioner",
+  "version": "0.1.5",
+  "description": "Provision contract objects for use from multiple sources",
+  "main": "index.js",
+  "scripts": {},
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-provisioner",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "contracts",
+    "provision"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-provisioner/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-provisioner#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

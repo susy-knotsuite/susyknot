@@ -1,0 +1,28 @@
+{
+  "name": "susyknot-polynomial-loader",
+  "version": "0.1.21",
+  "description": "A Webpack loader that uses Susyknot to load and provision polynomial contracts, with Susyknot migrations.",
+  "main": "index.js",
+  "scripts": {
+    "lintjs": "standard",
+    "lintjs-fix": "standard --fix"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-polynomial-loader",
+  "authors": [
+    "John McDowall <john@kantan.io>",
+    "Angello Pozo <angellopozo@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "find-up": "^1.1.2",
+    "loader-utils": "^1.1.0",
+    "schema-utils": "^1.0.0",
+    "susyknot-config": "^1.1.13",
+    "susyknot-core": "^5.0.22"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "susyknot-deployer",
+  "version": "3.0.21",
+  "description": "Light deployment module for easily deploying Sophon contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-warnings --timeout 10000 --exit"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-deployer",
+  "keywords": [
+    "sophon",
+    "susyknot",
+    "polynomial",
+    "deployment",
+    "contracts"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot-deployer/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot-deployer#readme",
+  "dependencies": {
+    "emittery": "^0.4.0",
+    "susyknot-contract": "^4.0.20",
+    "susyknot-expect": "^0.0.9"
+  },
+  "devDependencies": {
+    "susybraid-core": "2.5.5",
+    "mocha": "5.2.0",
+    "susyknot-reporters": "^1.0.10",
+    "susyknot-workflow-compile": "^2.0.19",
+    "susyweb": "1.0.0-beta.37"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

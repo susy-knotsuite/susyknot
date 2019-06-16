@@ -1,0 +1,20 @@
+lerna-debug.log
+packages/**/node_modules
+node_modules
+yarn-error.log
+.vscode
+bin
+.DS_Store
+
+# susyknot
+packages/susyknot/build
+packages/susyknot/stats.json
+packages/susyknot/.DS_Store
+packages/susyknot/.tern-port
+packages/susyknot/dependencies
+
+# susyknot-debugger
+packages/susyknot-debugger/.tmp
+
+# susyknot-contract
+packages/susyknot-contract/dist

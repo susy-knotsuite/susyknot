@@ -1,0 +1,39 @@
+{
+  "name": "susyknot-contract-schema",
+  "version": "3.0.11",
+  "description": "JSON schema for contract artifacts",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "yarn run build",
+    "build": "cd spec && json2ts -i contract-object.spec.json -o ./index.d.ts",
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-contract-schema",
+  "keywords": [
+    "sophon",
+    "json",
+    "schema",
+    "contract",
+    "artifacts"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot/blob/develop/packages/susyknot-contract-schema#readme",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "crypto-js": "^3.1.9-1",
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^5.5.0",
+    "mocha": "5.2.0",
+    "polc": "0.5.0"
+  },
+  "directories": {
+    "spec": "./spec"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

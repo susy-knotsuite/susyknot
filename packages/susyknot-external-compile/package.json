@@ -1,0 +1,34 @@
+{
+  "name": "susyknot-external-compile",
+  "version": "1.0.11",
+  "description": "Wrapper to compile Susyknot contracts with arbitrary shell command",
+  "keywords": [
+    "susyknot",
+    "sophon",
+    "smart-contract"
+  ],
+  "author": "g. nicholas d'andrea <gnidan@users.noreply.github.com>",
+  "homepage": "https://github.com/susy-knotsuite/susyknot#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-external-compile",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot/issues"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "glob": "^7.1.2",
+    "susyknot-contract-schema": "^3.0.11",
+    "susyknot-expect": "^0.0.9",
+    "susyweb-utils": "1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "5.2.0",
+    "temp": "^0.8.3"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

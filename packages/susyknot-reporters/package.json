@@ -1,0 +1,19 @@
+{
+  "name": "susyknot-reporters",
+  "version": "1.0.10",
+  "description": "Reporters for Susyknot modules",
+  "main": "index.js",
+  "scripts": {},
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-reporters",
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "node-emoji": "^1.8.1",
+    "ora": "^3.0.0",
+    "susyweb-utils": "1.0.0-beta.37"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "susyknot-expect",
+  "version": "0.0.9",
+  "description": "Simple module for ensuring specific options are passed to a function",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/susy-knotsuite/susyknot/tree/master/packages/susyknot-expect",
+  "keywords": [
+    "susyknot",
+    "sophon",
+    "expect"
+  ],
+  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susy-knotsuite/susyknot/issues"
+  },
+  "homepage": "https://github.com/susy-knotsuite/susyknot/blob/master/packages/susyknot-expect#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b207efb3c1409746537293b3e0fc27350029188e",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  }
+}

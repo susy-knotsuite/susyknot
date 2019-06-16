@@ -1,0 +1,11 @@
+pragma polynomial ^0.5.0;
+
+import "susyknot/Assert.pol";
+
+contract TestWithBalance {
+  uint public initialBalance = 1 sophy;
+
+  function testInitialBalance() public {
+     Assert.equal(address(this).balance, initialBalance, "The balance of this contract should be the same as the initial balance!");
+  }
+}
